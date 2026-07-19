@@ -17,5 +17,3 @@ print(df.info()) # mostra as colunas presentes no data set e seus tipos
 print(df.isnull().sum()) #verifica se tem valor nulo
 
 print(df[df.duplicated()]) #olha se tem duplicados na base
-
-
