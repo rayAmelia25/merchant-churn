@@ -57,14 +57,14 @@ ax.set_title("Volume de Transações")
 #ax.set_ylabel("")
 
 fig_ticket_medio, ax = plt.subplots()
-ax = df['avg_ticket_size'].hist(edgecolor='black') # quanto maior a empresa maior o volume de transações
+ax = df['avg_ticket_size'].hist(edgecolor='black') 
 plt.grid(False)
 ax.set_title("Ticket Médio")
 #ax.set_xlabel("") 
 #ax.set_ylabel("")
 
 fig_satisfacao, ax = plt.subplots()
-ax = df['satisfaction_score'].hist(edgecolor='black') # quanto maior a empresa maior o volume de transações
+ax = df['satisfaction_score'].hist(edgecolor='black') 
 plt.grid(False)
 ax.set_title("Satisfação")
 #ax.set_xlabel("") 
@@ -80,21 +80,21 @@ with col3:
     st.pyplot(fig_satisfacao)
 
 fig_chamado, ax = plt.subplots()
-ax = df['support_tickets_90d'].hist(edgecolor='black') # quanto maior a empresa maior o volume de transações
+ax = df['support_tickets_90d'].hist(edgecolor='black') 
 plt.grid(False)
 ax.set_title("Chamados")
 #ax.set_xlabel("") 
 #ax.set_ylabel("")
 
 fig_pag_falhado, ax = plt.subplots()
-ax = df['failed_payments_90d'].hist(edgecolor='black') # quanto maior a empresa maior o volume de transações
+ax = df['failed_payments_90d'].hist(edgecolor='black') 
 plt.grid(False)
 ax.set_title("Ticket Médio")
 #ax.set_xlabel("") 
 #ax.set_ylabel("")
 
 fig_tempo_solu, ax = plt.subplots()
-ax = df['avg_resolution_hours'].hist(edgecolor='black') # quanto maior a empresa maior o volume de transações
+ax = df['avg_resolution_hours'].hist(edgecolor='black') 
 plt.grid(False)
 ax.set_title("Satisfação")
 #ax.set_xlabel("") 
